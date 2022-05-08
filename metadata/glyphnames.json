@@ -1800,7 +1800,7 @@
 		"codepoint": "U+E275",
 		"description": "Quarter-tone sharp"
 	},
-	"accidentalQuarterToneSharpBusotti": {
+	"accidentalQuarterToneSharpBussotti": {
 		"codepoint": "U+E472",
 		"description": "Quarter tone sharp (Bussotti)"
 	},
@@ -1996,7 +1996,7 @@
 		"codepoint": "U+E274",
 		"description": "Three-quarter-tones sharp"
 	},
-	"accidentalThreeQuarterTonesSharpBusotti": {
+	"accidentalThreeQuarterTonesSharpBussotti": {
 		"codepoint": "U+E474",
 		"description": "Three quarter tones sharp (Bussotti)"
 	},
@@ -5050,9 +5050,9 @@
 		"codepoint": "U+E686",
 		"description": "Thunder effect (Salzedo)"
 	},
-	"harpSalzedoTimpanicSounds": {
+	"harpSalzedoTympanicSounds": {
 		"codepoint": "U+E68B",
-		"description": "Timpanic sounds (Salzedo)"
+		"description": "Tympanic sounds (Salzedo)"
 	},
 	"harpSalzedoWhistlingSounds": {
 		"codepoint": "U+E687",

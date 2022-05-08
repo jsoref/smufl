@@ -3,7 +3,7 @@ window.search = window.search || {};
 (function search(search) {
     // Search functionality
     //
-    // You can use !hasFocus() to prevent keyhandling in your key
+    // You can use !hasFocus() to prevent key handling in your key
     // event handlers while the user is typing their search.
 
     if (!Mark || !elasticlunr) {
@@ -139,7 +139,7 @@ window.search = window.search || {};
         var teaser = makeTeaser(escapeHTML(result.doc.body), searchterms);
         teaser_count++;
 
-        // The ?URL_MARK_PARAM= parameter belongs inbetween the page and the #heading-anchor
+        // The ?URL_MARK_PARAM= parameter belongs in between the page and the #heading-anchor
         var url = doc_urls[result.ref].split("#");
         if (url.length == 1) { // no anchor found
             url.push("");

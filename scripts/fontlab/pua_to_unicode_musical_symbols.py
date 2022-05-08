@@ -119,19 +119,19 @@ def uIndex():
 print 'creating glyphs ...'
 for pua, ums in genDict.iteritems():
 	
-	puaIndx = f.FindGlyph(pua)
-	puaGlyph = f.glyphs[puaIndx]
+	puaIndex = f.FindGlyph(pua)
+	puaGlyph = f.glyphs[puaIndex]
 	newGlyph = Glyph()
 	newGlyph.name = ums
 	newGlyph.unicode = uIndex()
 	newGlyph.mark = 120
 	
 	if f.has_key(ums):
-		print 'Skipping prexisting glyph: ' + ums
+		print 'Skipping preexisting glyph: ' + ums
 	else:
 		 
 #	Get components of PUA glyphs 
-		newGlyph.components.append(Component(puaIndx))
+		newGlyph.components.append(Component(puaIndex))
 
 # Get metrics 
 		metrics = puaGlyph.GetMetrics()
